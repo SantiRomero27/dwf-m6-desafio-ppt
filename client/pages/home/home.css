@@ -1,0 +1,13 @@
+.home {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 45px;
+    min-height: inherit;
+}
+
+.buttons-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}

@@ -1,0 +1,17 @@
+.instructions {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 15px;
+    min-height: 100vh;
+}
+
+.instructions-text {
+    margin: 0;
+    margin-bottom: 20px;
+    margin-top: auto;
+
+    text-align: center;
+    font-size: 52px;
+    overflow-wrap: break-word;
+}

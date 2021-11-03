@@ -1,0 +1,14 @@
+.waiting-room {
+    display: flex;
+    flex-direction: column;
+
+    min-height: 100vh;
+    padding-top: 25px;
+}
+
+.waiting-room__text {
+    margin: auto 0 0 0;
+
+    font-size: 35px;
+    text-align: center;
+}

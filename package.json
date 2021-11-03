@@ -1,0 +1,27 @@
+{
+    "name": "desafio-m6",
+    "version": "1.0.0",
+    "license": "MIT",
+    "dependencies": {
+        "@types/node": "^16.10.2",
+        "@vaadin/router": "^1.7.4",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "firebase": "8.7.1",
+        "firebase-admin": "^9.12.0",
+        "nanoid": "^3.1.28",
+        "parcel": "^2.0.0-rc.0",
+        "typescript": "^4.4.3"
+    },
+    "scripts": {
+        "dev:front": "parcel serve ./client/index.html",
+        "dev:server": "ts-node ./server/api.ts",
+        "build:front": "parcel build ./client/index.html",
+        "build:server": "tsc ./server/api.ts",
+        "build": "yarn build:front && yarn build:server",
+        "start": "node ./server/api.js"
+    },
+    "devDependencies": {
+        "@parcel/transformer-image": "2.0.0-rc.0"
+    }
+}

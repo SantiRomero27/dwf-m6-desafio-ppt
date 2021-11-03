@@ -1,0 +1,22 @@
+.game-countdown {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    align-items: flex-end;
+
+    min-height: 100vh;
+}
+
+.countdown-timer {
+    margin: 0;
+    text-align: center;
+    font-size: 128px;
+}
+
+.hands-container-countdown {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+    width: 100%;
+    overflow: hidden;
+}

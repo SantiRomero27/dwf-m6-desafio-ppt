@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url("./assets/manos.png");
+    font-family: "Odibee Sans", sans-serif;
+}
+
+#root {
+    width: 80%;
+    min-height: 100vh;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.game-title {
+    margin: 0;
+    margin-bottom: 45px;
+
+    font-weight: 700;
+    font-size: 93px;
+    color: #009048;
+}
+
+.hands-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+    width: 100%;
+    margin-top: auto;
+    overflow: hidden;
+}
+
+.info-header {
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 24px;
+}
+
+.info-header p {
+    margin: 0;
+}
+
+.opponent-score {
+    color: #ff6442;
+}
+
+.info-header__room-info {
+    text-align: right;
+}
+
+.room-info__title {
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.25);
+}
