@@ -5,7 +5,7 @@ type Move = "rock" | "paper" | "scissors" | "none";
 type Result = "userWin" | "opponentWin" | "tiedGame";
 
 // Aux variable
-const API_BASE_URL = process.env.API_BASE_URL || "http://localhost:3000";
+const API_BASE_URL = location.origin;
 
 // State
 const state = {
